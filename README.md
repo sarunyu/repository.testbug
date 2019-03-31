@@ -1,2 +1,2 @@
 # repository.testbug
-Kodi naja
+Kodi 18 naja
