@@ -212,7 +212,7 @@
   </extension>
 </addon>
 
-<addon id="script.hello.wifi" name="Hello Wifi" version="1.0.0" provider-name="testbug">
+<addon id="script.hello.wifi" name="Hello WIFI" version="1.0.1" provider-name="testbug">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
