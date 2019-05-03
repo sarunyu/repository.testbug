@@ -212,7 +212,7 @@
   </extension>
 </addon>
 
-<addon id="script.hello.wifi" name="Wifi" version="1.0.0" provider-name="testbug">
+<addon id="script.hello.wifi" name="Hello Wifi" version="1.0.0" provider-name="testbug">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
@@ -222,10 +222,10 @@
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
 		<summary lang="en">Popup wifi passwd</summary>
-		<description lang="en">Sprittze</description>
+		<description lang="en">Sprittze Hotel</description>
 		<license>GNU General Public License, v2</license>
 		<language></language>
-		<source>https://github.com/zag2me/script.hello.world</source>
+		<source>https://github.com/try2hack/repository.testbug/tree/master/script.hello.wifi</source>
 		<website>m0z.xyz</website>
 		<email>try2hack@msn.com</email>
 		<assets>
