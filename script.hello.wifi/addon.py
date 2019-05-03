@@ -9,17 +9,18 @@ addon       = xbmcaddon.Addon()
 addonname   = addon.getAddonInfo('name')
 mac = ':'.join('%02X' % ((uuid.getnode() >> 8*i) & 0xff) for i in reversed(xrange(6)))
 #response = urllib.urlopen('http://192.168.50.120/welcome.json'+mac)
-response = urllib.urlopen('https://m0z.xyz/deprimetv/get.php?mac='+mac)
+response = urllib.urlopen('https://hello.roundtable-solution.com/spittze/getmx.php?mac='+mac)
 hostname = socket.gethostname()
 
 data = json.load(response)
-
-title = data['title']
-name = data['name']
-room = data['room']
-line1 = data['line1']+data['name']
-line2 = data['line2']+data['room']
-line3 = data['line3']
-
+#varirable from database
+room = data['room_id']
+user = data['user']
+pwd  = data['pwd']
+#text to display
+title = "Sawasdee krap Tan Poo Chom"
+line1 = "Breakfast Time 6.00-10.00"
+line2 = "Sleep with me Free SPITTZE WIFI"
+line3 = "USER : "+user+" PWD : "+pwd
 
 xbmcgui.Dialog().ok(title,line1,line2,line3)
