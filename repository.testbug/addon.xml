@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <addon id="repository.testbug" name="testbug'Repository" version="1.0.1" provider-name="testbug">
+    <addon id="repository.testbug" name="testbug'Repository" version="1.0.3" provider-name="testbug">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
-        <extension point="xbmc.addon.repository" name="testbug'Repository">
+        <extension point="xbmc.addon.repository" name="testbug'repository">
             <info compressed="false">https://raw.githubusercontent.com/try2hack/repository.testbug/master/_repo/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/try2hack/repository.testbug/master/_repo/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/try2hack/repository.testbug/master/_repo/</datadir>

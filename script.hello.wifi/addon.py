@@ -18,7 +18,7 @@ room = data['room_id']
 user = data['user']
 pwd  = data['pwd']
 #text to display
-title = "Sawasdee krap Tan Poo Chom"
+title = "Spittze Hotel"
 line1 = "Breakfast Time 6.00-10.00"
 line2 = "Sleep with me Free SPITTZE WIFI"
 line3 = "USER : "+user+" PWD : "+pwd

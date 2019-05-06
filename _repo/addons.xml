@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="skin.estuary.modv2" version="3.0.6" name="Estuary MOD V2 (KODI 18)" provider-name="Guilouz">
+<addon id="skin.estuary.modv2" version="3.0.7" name="Estuary MOD V2 (KODI 18)" provider-name="Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.skinshortcuts" version="0.6.5"/>
@@ -45,16 +45,7 @@
 				<icon>resources/icon.png</icon>
 				<fanart>resources/fanart.jpg</fanart>
 				<screenshot>resources/screenshot-01.jpg</screenshot>
-				<screenshot>resources/screenshot-02.jpg</screenshot>
-				<screenshot>resources/screenshot-03.jpg</screenshot>
-				<screenshot>resources/screenshot-04.jpg</screenshot>
-				<screenshot>resources/screenshot-05.jpg</screenshot>
-				<screenshot>resources/screenshot-06.jpg</screenshot>
-				<screenshot>resources/screenshot-07.jpg</screenshot>
-				<screenshot>resources/screenshot-08.jpg</screenshot>
-				<screenshot>resources/screenshot-09.jpg</screenshot>
-				<screenshot>resources/screenshot-10.jpg</screenshot>
-				<screenshot>resources/screenshot-11.jpg</screenshot>
+
 			</assets>
 			<news>]testbug'mod</news>
 	</extension>
@@ -212,7 +203,7 @@
   </extension>
 </addon>
 
-<addon id="script.hello.wifi" name="Hello WIFI SPITTZE" version="1.0.2" provider-name="testbug">
+<addon id="script.hello.wifi" name="Hello WIFI SPITTZE" version="1.0.3" provider-name="testbug">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
@@ -239,11 +230,11 @@
 	</extension>
 </addon>
 
-    <addon id="repository.testbug" name="testbug'Repository" version="1.0.1" provider-name="testbug">
+    <addon id="repository.testbug" name="testbug'Repository" version="1.0.3" provider-name="testbug">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
-        <extension point="xbmc.addon.repository" name="testbug'Repository">
+        <extension point="xbmc.addon.repository" name="testbug'repository">
             <info compressed="false">https://raw.githubusercontent.com/try2hack/repository.testbug/master/_repo/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/try2hack/repository.testbug/master/_repo/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/try2hack/repository.testbug/master/_repo/</datadir>
