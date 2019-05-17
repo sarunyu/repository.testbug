@@ -249,13 +249,18 @@
 	</extension>
 </addon>
 
-<addon id="pvr.hts" version="4.4.16.1" name="Tvheadend HTSP Client" provider-name="Adam Sutton, Sam Stenvall, Lars Op den Kamp, Kai Sommerfeld">
+<addon
+  id="pvr.hts"
+  version="5.0.1"
+  name="Tvheadend HTSP Client"
+  provider-name="Adam Sutton, Sam Stenvall, Lars Op den Kamp, Kai Sommerfeld">
   <requires>
-    <import addon="kodi.binary.global.main" version="1.0.14"/>
-    <import addon="kodi.binary.global.gui" version="5.12.0"/>
-    <import addon="kodi.binary.instance.pvr" version="5.10.3"/>
-  </requires>
-  <extension point="xbmc.pvrclient" library_linux="pvr.hts.so.4.4.16"/>
+<import addon="kodi.binary.global.main" version="1.0.14"/>
+<import addon="kodi.binary.global.gui" version="5.12.1"/>
+<import addon="kodi.binary.instance.pvr" version="6.0.0"/></requires>
+  <extension
+    point="xbmc.pvrclient"
+    library_linux="pvr.hts.so.5.0.1"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="af_ZA">Kodi se voorprogram vir Tvheadend</summary>
     <summary lang="be_BY">Kodi's frontend for Tvheadend</summary>
@@ -369,7 +374,7 @@
     <description lang="vi_VN">Giao tiếp cho Tvheadend; hỗ trợ truyền phát và thu chương trình Live TV, hẹn giờ, và hiển thị lịch chiếu (EPG)</description>
     <description lang="zh_CN">Tvheadend 前端，支持直播电视和录像流媒体、电子节目单、定时器</description>
     <description lang="zh_TW">Tvheadend前端，支援的串流媒體包含有直播電視和錄製節目，電子節目表，定時器 等</description>
-    <platform/>
+    <platform>linux</platform>
   </extension>
 </addon>
 
