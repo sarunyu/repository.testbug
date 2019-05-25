@@ -8,19 +8,29 @@ import json
 addon       = xbmcaddon.Addon()
 addonname   = addon.getAddonInfo('name')
 mac = ':'.join('%02X' % ((uuid.getnode() >> 8*i) & 0xff) for i in reversed(xrange(6)))
-#response = urllib.urlopen('http://192.168.50.120/welcome.json'+mac)
-response = urllib.urlopen('https://hello.roundtable-solution.com/spittze/getmx.php?mac='+mac)
-hostname = socket.gethostname()
-
+hostname = socket.gethostname()    
+#ip = socket.gethostbyname(hostname)  
+#get data
+response = urllib.urlopen('https://m0z.xyz/login/getmx.php?mac='+mac)
 data = json.load(response)
 #varirable from database
-room = data['room_id']
+room = data['room']
+name = data['name']
 user = data['user']
 pwd  = data['pwd']
+stat = data['stats']
 #text to display
-title = "Spittze Hotel"
-line1 = "Breakfast Time 6.00-10.00"
-line2 = "Sleep with me Free SPITTZE WIFI"
-line3 = "USER : "+user+" PWD : "+pwd
+title = "Welcome "+name+" to Spittze Hotel"
+line1 = "The hotel has free wifi"
+line2 = "Username : "+user+" and Password : "+pwd
+line3 = "Have a good stay. Thank you."
 
-xbmcgui.Dialog().ok(title,line1,line2,line3)
+dev1 = "Room is check-out"
+dev2 = "This is a infomation"
+dev3 = "MAC : "+mac
+dev4 = "IP  : "
+#condition
+if stat =="Check-in":
+    xbmcgui.Dialog().ok(title,line1,line2,line3)
+else:
+   xbmcgui.Dialog().ok(dev1,dev2,dev3,dev4)
