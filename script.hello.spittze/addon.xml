@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.hello.spittze" name="Spittze Wifi" version="1.0.0" provider-name="testbug">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Popup wifi passwd</summary>
+		<description lang="en">Sprittze Hotel</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>		
+		<source>https://github.com/try2hack/repository.testbug/tree/master/script.hello.spittze</source>
+		<website>m0z.xyz</website>
+		<email>try2hack@msn.com</email>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<news>testbug'mod</news>
+	</extension>
+</addon>
