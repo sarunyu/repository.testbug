@@ -14,11 +14,21 @@ mac = ':'.join('%02X' % ((uuid.getnode() >> 8*i) & 0xff) for i in reversed(xrang
 response = urllib.urlopen('https://hello.roundtable-solution.com/spittze/getmx.php?mac='+mac)
 data = json.load(response)
 #varirable from database
-room = data['room']
-name = data['name']
-user = data['user']
-pwd  = data['pwd']
-stat = data['stats']
+
+if data['room']== None:
+  room =""
+  name=""
+  user =""
+  pwd =""
+  stat =""
+else:
+  room = data['room']
+  name = data['name']
+  user = data['user']
+  pwd  = data['pwd']
+  stat = data['stats']
+
+
 #text to display1
 title = "Welcome "+name+" to Spittze Hotel"
 line1 = "The hotel has free wifi"
