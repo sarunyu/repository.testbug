@@ -1,5 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+    <addon id="repository.testbug" name="testbug'Repository" version="1.0.5" provider-name="testbug">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="testbug'repository">
+            <info compressed="false">https://raw.githubusercontent.com/try2hack/repository.testbug/master/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/try2hack/repository.testbug/master/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/try2hack/repository.testbug/master/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>testbug's addons repository</summary>
+            <description>Tam a rai a rai gu mai dai kor tang kai.</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="script.hello.deprime" name="DePrime Wifi" version="1.0.0" provider-name="testbug">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Popup Wifi Password</summary>
+		<description lang="en">DePrime</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<source>https://github.com/try2hack/repository.testbug/tree/master/script.hello.deprime</source>
+		<website>m0z.xyz</website>
+		<email>try2hack@msn.com</email>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<news>testbug'mod</news>
+	</extension>
+</addon>
+
+<addon id="script.hello.samsen" name="Samsen The Street Wifi" version="1.0.0" provider-name="testbug">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Popup Wifi Password</summary>
+		<description lang="en">Samsen The Street</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<source>https://github.com/try2hack/repository.testbug/tree/master/script.hello.samsen</source>
+		<website>m0z.xyz</website>
+		<email>try2hack@msn.com</email>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<news>testbug'mod</news>
+	</extension>
+</addon>
+
+<addon id="script.hello.spittze" name="Spittze Wifi" version="1.0.0" provider-name="testbug">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Popup wifi passwd</summary>
+		<description lang="en">Sprittze Hotel</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<source>https://github.com/try2hack/repository.testbug/tree/master/script.hello.spittze</source>
+		<website>m0z.xyz</website>
+		<email>try2hack@msn.com</email>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<news>testbug'mod</news>
+	</extension>
+</addon>
+
+<addon id="script.hello.world" name="Hello World" version="1.0.2" provider-name="zag">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Popup Hello World</summary>
+		<description lang="en">Hello is me?</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<forum>http://forum.kodi.tv/showthread.php?tid=209948</forum>
+		<source>https://github.com/zag2me/script.hello.world</source>
+		<website>Kodi.tv</website>
+		<email>zag@kodi.org</email>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<news>testbug'mod</news>
+	</extension>
+</addon>
+
 <addon id="skin.estuary2" version="1.0.0" name="Estuary2" provider-name="testbug,phil65, Ichabod Fletchman">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
@@ -167,78 +293,6 @@
 			<screenshot>resources/screenshot-07.jpg</screenshot>
 			<screenshot>resources/screenshot-08.jpg</screenshot>
 		</assets>
-	</extension>
-</addon>
-
-<addon id="script.hello.world" name="Hello World" version="1.0.2" provider-name="zag">
-	<requires>
-		<import addon="xbmc.python" version="2.14.0"/>
-	</requires>
-	<extension point="xbmc.python.script" library="addon.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Popup Hello World</summary>
-		<description lang="en">Hello is me?</description>
-		<license>GNU General Public License, v2</license>
-		<language></language>
-		<forum>http://forum.kodi.tv/showthread.php?tid=209948</forum>
-		<source>https://github.com/zag2me/script.hello.world</source>
-		<website>Kodi.tv</website>
-		<email>zag@kodi.org</email>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<screenshot>resources/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshot-03.jpg</screenshot>
-		</assets>
-		<news>testbug'mod</news>
-	</extension>
-</addon>
-
-    <addon id="repository.testbug" name="testbug'Repository" version="1.0.5" provider-name="testbug">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="testbug'repository">
-            <info compressed="false">https://raw.githubusercontent.com/try2hack/repository.testbug/master/_repo/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/try2hack/repository.testbug/master/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/try2hack/repository.testbug/master/_repo/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>testbug's addons repository</summary>
-            <description>Tam a rai a rai gu mai dai kor tang kai.</description>
-            <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="script.hello.spittze" name="Spittze Wifi" version="1.0.0" provider-name="testbug">
-	<requires>
-		<import addon="xbmc.python" version="2.14.0"/>
-	</requires>
-	<extension point="xbmc.python.script" library="addon.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Popup wifi passwd</summary>
-		<description lang="en">Sprittze Hotel</description>
-		<license>GNU General Public License, v2</license>
-		<language></language>
-		<source>https://github.com/try2hack/repository.testbug/tree/master/script.hello.spittze</source>
-		<website>m0z.xyz</website>
-		<email>try2hack@msn.com</email>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<screenshot>resources/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshot-03.jpg</screenshot>
-		</assets>
-		<news>testbug'mod</news>
 	</extension>
 </addon>
 </addons>
