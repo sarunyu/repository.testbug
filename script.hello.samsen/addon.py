@@ -31,7 +31,7 @@ else:
 
 #text to display1
 title = "Welcome to Samsen The Street"
-line1 = "Hi ! Mr."+name
+line1 = "Hi ! "+name
 line2 = "Free WiFi User : "+user+" Password : "+pwd
 line3 = "Make yourself at home,and let us know how we can serve you."
 #text to display2
