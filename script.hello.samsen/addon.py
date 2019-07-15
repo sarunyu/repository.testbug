@@ -30,10 +30,10 @@ else:
 
 
 #text to display1
-title = "Welcome "+name+" to Samsen The Street"
-line1 = "The hotel has free wifi"
-line2 = "Username : "+user+" and Password : "+pwd
-line3 = "Have a good stay. Thank you."
+title = "Welcome to Samsen The Street"
+line1 = "Hi ! Mr."+name
+line2 = "Free WiFi User : "+user+" Password : "+pwd
+line3 = "Make yourself at home,and let us know how we can serve you."
 #text to display2
 dev1 = "Room is check-out"
 dev2 = "Room Number "+room
